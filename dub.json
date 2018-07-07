@@ -1,0 +1,17 @@
+{
+	"name": "multigit",
+	"description": "A Multiple Git Repository Tool",
+	"copyright": "Copyright © 2018, Aurora Free Open Source Software",
+	"license": "GPL-3.0",
+	"authors": [
+		"Luís Ferreira"
+	],
+	"targetType": "executable",
+	"targetPath": "bin",
+	"targetName": "mgit",
+	"sourcePaths": [ "source" ],
+	"importPaths": [ "source" ],
+	"dependencies": {
+		"dlibgit": "~>0.50.6"
+	}
+}
